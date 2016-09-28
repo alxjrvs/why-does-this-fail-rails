@@ -18,7 +18,7 @@
 //
 //
 
-let onReadyHandler = () => { 
+var onReadyHandler = function() { 
   $("#replace-me").text("Hello, World!");
 }
 
